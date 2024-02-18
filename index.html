@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tech City</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <div class="logo">
+                <img onclick="document.location='index.html'" class="img-fluid h-100" src="img/TechTeam.png" alt="">
+            </div>
+            <a href="member.php">บริการและสินค้า</a>
+            <a href="member.php">สินค้า</a>
+            <a href="point.php">คะแนนสะสม</a>
+            <a href="register.php" onclick="register()">สมัครสมาชิก</a>
+            <a href="login.php" onclick="login()">เข้าสู่ระบบ</a>
+        </div>
+    </div>
+    <div class="action-buttons">
+        <button onclick="document.location='member.php'">บริการและสินค้า </button>
+        <button onclick="document.location='member.php'">สินค้า </button>
+        <button onclick="document.location='point.php'">คะแนนสะสม</button>
+        <button onclick="document.location='register.php'">สมัครสมาชิก</button>
+    </div>
+</body>
+</html><br><br><br><br><br>
+<p class="time" id="real-time"></p>
+<script src="assets/js/script.js"></script>
